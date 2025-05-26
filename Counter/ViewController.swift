@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBAction func tapButton(_ sender: Any) {
         counter += 1
         encounter.text = "Значение счётчика: \(counter)"
+        // Работа для спринта 3
     }
     
 }
